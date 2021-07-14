@@ -1,4 +1,4 @@
 django == 3.2.5
-sycopg2 == 2.9.1
+psycopg2-binary
 djangorestframework == 3.12.4
 django-bootstrap4 == 3.0.1
