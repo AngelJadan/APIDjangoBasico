@@ -20,4 +20,6 @@ from transacciones import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('get_deposito/<str:cedula>/<str:tipo>/', views.get_depositos.as_view(), name="get_deposito"),
+    path('depositar/', views.depositar, name="depositar"),
+    path('retirar/', views.retirar, name="retirar"),
 ]

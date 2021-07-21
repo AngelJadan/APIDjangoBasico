@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'api_interbancario.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '',
+        'NAME': 'Interbancariodb',
         'USER':'postgres',
-        'PASSWORD':'',
+        'PASSWORD':'Angel2019',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
